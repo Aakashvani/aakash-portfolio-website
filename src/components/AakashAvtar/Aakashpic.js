@@ -1,19 +1,15 @@
 import React from "react";
+import { RightSection,Avtar } from "./AakashpicStyle";
+
 
 const Aakashpic = () => {
   return (
-    <div>
-      <img
+    <RightSection>
+      <Avtar
         src="./images/aakashPicFinal2.png"
         alt="Aakash Image"
-        style={{
-          borderRadius: "50%",
-          marginLeft: "90px",
-          align: "center",
-          marginTop: "28px",
-        }}
       />
-    </div>
+    </RightSection>
   );
 };
 
