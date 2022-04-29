@@ -17,11 +17,11 @@ export const RightSection = styled.div`
 `;
 
 export const Avtar = styled.img`
-    width: 80%;
-    border-radius: 50%;
-    margin-left: 90px;
-    align: center;
-    margin-top: 28px;
+  width: 80%;
+  border-radius: 50%;
+  margin-left: 90px;
+  align: center;
+  margin-top: 28px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;

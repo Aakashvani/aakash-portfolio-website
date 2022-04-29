@@ -1,14 +1,10 @@
 import React from "react";
-import { RightSection,Avtar } from "./AakashpicStyle";
-
+import { RightSection, Avtar } from "./AakashpicStyle";
 
 const Aakashpic = () => {
   return (
     <RightSection>
-      <Avtar
-        src="./images/aakashPicFinal2.png"
-        alt="Aakash Image"
-      />
+      <Avtar src="./images/aakashPicFinal2.png" alt="Aakash Image" />
     </RightSection>
   );
 };

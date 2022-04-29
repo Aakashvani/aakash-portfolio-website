@@ -47,7 +47,7 @@ const Footer = () => {
         </Link>
       </CompanyContainer>
 
-      <br/>
+      <br />
 
       <CompanyContainer>
         <LinkTitle>Call</LinkTitle>
@@ -75,7 +75,6 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Made with ❣️ by Aakash Kumar</Slogan>
         </CompanyContainer>
-
       </SocialIconsContainer>
       <MadeBy>Made with ❣️ by Aakash Kumar</MadeBy>
     </FooterWrapper>
