@@ -12,6 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  SeeMoreLink,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -43,15 +44,26 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.deploy} target="_blank">Deploy</ExternalLinks>
-              <ExternalLinks href={p.source} target="_blank">Source</ExternalLinks>
+              <ExternalLinks href={p.deploy} target="_blank">
+                Deploy
+              </ExternalLinks>
+              <ExternalLinks href={p.source} target="_blank">
+                Source
+              </ExternalLinks>
               {/* <ExternalLinks href={p.video} target="_blank">Video</ExternalLinks> */}
             </UtilityList>
           </BlogCard>
         );
       })}
     </GridContainer>
-    <ExternalLinks href={"https://github.com/Aakashvani/ProjectsLibrary"} target="_blank">See More</ExternalLinks>
+    <LinkBox>
+      <SeeMoreLink
+        href={"https://github.com/Aakashvani/ProjectsLibrary"}
+        target="_blank"
+      >
+        See More
+      </SeeMoreLink>
+    </LinkBox>
   </Section>
 );
 
