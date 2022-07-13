@@ -114,8 +114,8 @@ export const LinkBox = styled.div`
 
 export const SeeMoreLink = styled.a`
   color: white;
-  font-size: 1.6rem;
-  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
   background: #25a2c9;
   border-radius: 15px;
   transition: 0.5s;
