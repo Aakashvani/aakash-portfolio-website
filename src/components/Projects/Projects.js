@@ -51,6 +51,7 @@ const Projects = () => (
         );
       })}
     </GridContainer>
+    <ExternalLinks href={"https://github.com/Aakashvani/ProjectsLibrary"} target="_blank">See More</ExternalLinks>
   </Section>
 );
 
