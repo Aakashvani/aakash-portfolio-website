@@ -92,7 +92,7 @@ export const ExternalLinks = styled.a`
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #1565c0;
+    background: #00b4fc;
   }
 `;
 
@@ -120,6 +120,6 @@ export const SeeMoreLink = styled.a`
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #1565c0;
+    background: #00b4fc;
   }
 `;
