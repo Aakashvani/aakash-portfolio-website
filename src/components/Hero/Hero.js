@@ -19,7 +19,7 @@ const Hero = (props) => (
       </SectionText>
 
       {/*<--- button for resume download link ---> */}
-      <a href="https://drive.google.com/file/d/1B_8uUNznB-X6E7Hd84IvuZlSkZlcUVKC/view?usp=sharing" target="_blank">
+      <a href="https://drive.google.com/drive/folders/1yRZLb_OF0D0uwrS_k0z-wVAOn7xJuHin?usp=sharing" target="_blank">
         <Button>Resume</Button>
       </a>
     </LeftSection>
